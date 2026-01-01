@@ -194,7 +194,7 @@ export default function ConsultationSection() {
             <div className="absolute -inset-2 bg-gradient-to-br from-cyan-500 to-purple-500 rounded-2xl blur opacity-20" />
             <div className="relative rounded-2xl overflow-hidden border-2 border-gray-700">
               <img
-                src="/consultation-hero.jpg" // Replace with your image
+                src="https://images.unsplash.com/photo-1600585154340-be6161a56a0c" // Replace with your image
                 alt="Business consultation meeting"
                 className="w-full h-48 lg:h-56 xl:h-64 object-cover"
               />
