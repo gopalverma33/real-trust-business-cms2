@@ -42,7 +42,7 @@ export default function AddClient() {
     Object.keys(form).forEach(key => data.append(key, form[key]));
 
     try {
-      await fetch("http://localhost:5000/api/clients", {
+      await fetch("https://real-trust-backend-s0qw.onrender.com/api/clients", {
         method: "POST",
         body: data,
       });
