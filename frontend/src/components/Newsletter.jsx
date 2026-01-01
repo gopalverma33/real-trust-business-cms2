@@ -25,7 +25,7 @@ export default function Newsletter() {
     setIsSubmitting(true);
 
     try {
-      await axios.post("http://localhost:5000/api/subscribers", { email });
+      await axios.post("https://real-trust-backend-s0qw.onrender.com/api/subscribers", { email });
       toast.success("Subscribed successfully");
       setEmail("");
       setIsSuccess(true);
