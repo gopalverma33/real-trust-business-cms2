@@ -28,7 +28,7 @@ export default function ContactForm() {
     setIsSubmitting(true);
 
     try {
-      await axios.post("http://localhost:5000/api/contacts", data);
+      await axios.post("https://real-trust-backend-s0qw.onrender.com/api/contacts", data);
       setIsSubmitted(true);
       setData({ fullName: "", email: "", mobile: "", city: "" });
       
