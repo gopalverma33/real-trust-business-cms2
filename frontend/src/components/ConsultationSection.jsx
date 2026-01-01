@@ -38,7 +38,7 @@ export default function ConsultationSection() {
     setIsSubmitting(true);
     
     try {
-      await axios.post("http://localhost:5000/api/contacts", form);
+      await axios.post("https://real-trust-backend-s0qw.onrender.com/api/contacts", form);
       setShowSuccess(true);
       setForm({ fullName: "", email: "", mobile: "", city: "" });
       
