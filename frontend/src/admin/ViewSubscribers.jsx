@@ -19,7 +19,7 @@ export default function ViewSubscribers() {
 
   useEffect(() => {
     setLoading(true);
-    fetch("http://localhost:5000/api/subscribers")
+    fetch("https://real-trust-backend-s0qw.onrender.com/api/subscribers")
       .then(res => res.json())
       .then(data => {
         setSubscribers(data);
