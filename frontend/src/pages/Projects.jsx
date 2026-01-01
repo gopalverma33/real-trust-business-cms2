@@ -26,7 +26,7 @@ export default function Projects() {
 
   useEffect(() => {
     setLoading(true);
-    axios.get("http://localhost:5000/api/projects")
+    axios.get("https://real-trust-backend-s0qw.onrender.com/api/projects")
       .then(res => {
         setProjects(res.data);
         setLoading(false);
