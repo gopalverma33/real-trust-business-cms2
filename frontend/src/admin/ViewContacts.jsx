@@ -18,7 +18,7 @@ export default function ViewContacts() {
 
   useEffect(() => {
     setLoading(true);
-    fetch("http://localhost:5000/api/contacts")
+    fetch("https://real-trust-backend-s0qw.onrender.com/api/contacts")
       .then(res => res.json())
       .then(data => {
         setContacts(data);
