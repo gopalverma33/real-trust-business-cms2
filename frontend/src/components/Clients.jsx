@@ -29,7 +29,7 @@ export default function Clients() {
   useEffect(() => {
     setLoading(true);
     axios
-      .get("http://localhost:5000/api/clients")
+      .get("https://real-trust-backend-s0qw.onrender.com/api/clients")
       .then(res => {
         setClients(res.data);
         setLoading(false);
