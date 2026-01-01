@@ -43,7 +43,7 @@ export default function AddProject() {
     data.append("image", form.image);
 
     try {
-      await fetch("http://localhost:5000/api/projects", {
+      await fetch("https://real-trust-backend-s0qw.onrender.com/api/projects", {
         method: "POST",
         body: data,
       });
