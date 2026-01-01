@@ -12,7 +12,7 @@ export default function HeroContact() {
 
   const submitHandler = async (e) => {
     e.preventDefault();
-    await axios.post("http://localhost:5000/api/api/contacts", data);
+    await axios.post("https://real-trust-backend-s0qw.onrender.com/api/contacts", data);
     alert("Submitted Successfully");
     setData({ fullName: "", email: "", mobile: "", city: "" });
   };
